@@ -1,0 +1,48 @@
+
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <title>Physik-Klassenarbeit (Leicht) – Interaktiv</title>
+  <style>
+    body { font-family: sans-serif; margin: 30px; }
+    textarea { width: 100%; height: 60px; margin-bottom: 10px; }
+    button { margin: 5px; }
+    .section { border: 1px solid #aaa; padding: 15px; margin-bottom: 25px; border-radius: 8px; }
+    .section h3 { margin-top: 0; }
+  </style>
+  <script>
+    function showHelp1() {
+      alert("Begriffe: Stromstärke, Ladung, Zeit\nFormel: I = Q / t\nEinheit: Ampere (A)");
+    }
+    function showSolution1() {
+      alert("Gegeben: —\nGefragt: Stromstärke, Einheit\nFormel: I = Q / t\nAntwort: Die Stromstärke gibt an, wie viel Ladung pro Zeit durch einen Leiter fließt. Einheit: Ampere (A)");
+    }
+  </script>
+</head>
+<body>
+
+<h1>Physik-Klassenarbeit – Leicht (Interaktiv)</h1>
+
+<div class="section">
+  <h3>Aufgabe 1</h3>
+  <p>Was versteht man unter Stromstärke? Wie lautet die Einheit?</p>
+
+  <label>Gegeben:</label><br>
+  <textarea></textarea><br>
+
+  <label>Gefragt:</label><br>
+  <textarea></textarea><br>
+
+  <label>Benötigte Formel(n):</label><br>
+  <textarea></textarea><br>
+
+  <label>Antwort:</label><br>
+  <textarea></textarea><br>
+
+  <button onclick="showHelp1()">Hilfe anzeigen</button>
+  <button onclick="showSolution1()">Lösung prüfen</button>
+</div>
+
+</body>
+</html>
